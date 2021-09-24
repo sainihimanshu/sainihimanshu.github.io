@@ -1,18 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Himanshu Saini, a trekker, computer engineer, tech enthusiast"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-<html>
+    <link rel="stylesheet" href="index.css" />
 
-	<head>
-		<title>hello world</title>
-	</head>	
+    <link rel="icon" href="moon.png" type="image/x-icon" />
 
-	<body > 
+    <title>Himanshu Saini</title>
+  </head>
+  <body id="particles-js">
+    <img src="moon.png" alt="moon-icon" />
+    <br />
+    <strong>
+      <span id="hi" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom"
+        >Hi there</span
+      >! &#128075;&#127996;</strong
+    >
+    <br />
+    <br />
+    I am Himanshu, a nature lover.
 
-		<div style="text-align: center">
-			
-			<img src ="tvf.jpg"/>
-		</div>
-		
-	</body>
+    <p>Oftenly I can be found building tech.</p>
+    <p>I &#10084;&#65039; trekking, computers and fiction.</p>
 
+    <script>
+      const greetings = ['नमस्ते', 'नमस्कार', 'Hi there', 'Hola', 'Salut', 'やあ', 'Ciao'];
+      document.getElementById('hi').textContent =
+        greetings[Math.floor(Math.random() * greetings.length)];
+    </script>
+  </body>
 </html>
