@@ -21,7 +21,7 @@
 
     <title>Himanshu Saini</title>
   </head>
-  <body id="particles-js">
+  <body">
     <img src="moon.png" alt="moon-icon" />
     <br />
     <strong>
@@ -36,27 +36,6 @@
     <p>Often I can be found building <a href="https://github.com/sainihimanshu">tech</a>.</p>
     <p>I &#10084;&#65039; <span id="love"></span></p>
 
-    <script>
-      const greetings = ['नमस्ते', 'नमस्कार', 'Hi there', 'Hola', 'Salut', 'やあ', 'Ciao'];
-      document.getElementById('hi').textContent =
-        greetings[Math.floor(Math.random() * greetings.length)];
-
-      const loveText = 'trekking, computers, and fiction.'; //.split('');
-
-      console.log(loveText);
-
-      let start = 0;
-      const stop = loveText.length;
-
-      const id = setInterval(() => {
-        document.getElementById('love').textContent = loveText.slice(0, start);
-
-        start++;
-
-        if (start > stop) {
-          clearInterval(id);
-        }
-      }, 90);
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
