@@ -1,6 +1,7 @@
 const count = 400;
 const defaults = {
   origin: { y: 0.7 },
+  shapes: ['circle', 'sqaure'],
 };
 
 function fire(particleRatio, opts) {
