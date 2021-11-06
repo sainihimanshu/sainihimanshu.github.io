@@ -1,8 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  /* text-align: center; */
-  margin: 0.5em;
   font-family: 'Griffy';
-  font-size: 30px;
   text-decoration: none;
   background: black;
   color: wheat;
@@ -11,7 +11,7 @@ body {
 a {
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .card {
@@ -23,7 +23,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .foot {
@@ -34,9 +34,9 @@ a {
 }
 
 .circle {
-  width: 5em;
-  height: 5em;
-  margin: 2px;
+  width: 10em;
+  height: 10em;
+  margin: 0.5em;
   border-radius: 50%;
   border: 10px wheat solid;
 }
