@@ -17,9 +17,11 @@ a {
 .card {
   width: 40%;
   padding: 20px;
+  text-align: center;
 }
 
 .container {
+  margin-top: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -34,10 +36,12 @@ a {
 }
 
 .circle {
-  width: 10em;
-  height: 10em;
+  width: 12em;
+  height: 12em;
   margin: 0.5em;
   border-radius: 50%;
+  vertical-align: middle;
+
   border: 10px wheat solid;
 }
 

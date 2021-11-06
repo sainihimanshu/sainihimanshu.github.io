@@ -1,6 +1,6 @@
 const count = 400;
 const defaults = {
-  origin: { y: 0.7 },
+  origin: { y: 0.9 },
   shapes: ['circle', 'sqaure'],
 };
 
